@@ -2,8 +2,9 @@ body {
   width: 550px;
   margin-left: auto;
   margin-right: auto;
-  color: black;
-  background-image: url("./images/background.jpg");
+  color: #fff;            /* White font color for visibility */
+  background-color: #222; /* Dark background for contrast */
+  background-image: url("./images/pexels-pixabay-33109.jpg");
   padding: 1em;
 }
 p {
@@ -13,5 +14,5 @@ p {
 h1 {
   font-size: 48pt;
   font-weight: bold;
-  color: brown;
+  color: rgb(255, 255, 255);
 }
