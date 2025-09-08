@@ -16,3 +16,48 @@ h1 {
   font-weight: bold;
   color: rgb(255, 255, 255);
 }
+a {
+    color: #52ffee; /* Change to your desired color */
+}
+a:hover {
+    color: #ffeb3b; /* Optional: color when hovered */
+}
+.left-path {
+  background-image: url("./images/pexels-nejc-kosir-108379-338936.jpg");
+}
+.rightpath-bg {
+  background-image: url("./images/name.jpg");
+}
+.continue-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.restup-bg {
+  background-image: url("../images/bigtree.jpg");
+}
+.climbover-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.goaround-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.cave-bg {  
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.continue2-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.fightthebear-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.run-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.leftpath2-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
+.rightpathcaveman-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg"); 
+}
+.final-bg {
+  background-image: url("./images/pexels-pixabay-163036.jpg");
+}
