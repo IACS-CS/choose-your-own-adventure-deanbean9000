@@ -1,10 +1,14 @@
 body {
+  min-height: 100vh;                /* Make body at least full viewport height */
   width: 550px;
   margin-left: auto;
   margin-right: auto;
   color: #fff;            /* White font color for visibility */
   background-color: #222; /* Dark background for contrast */
   background-image: url("./images/pexels-pixabay-33109.jpg");
+  background-size: cover;            /* Cover the whole viewport */
+  background-position: center top;   /* Start image at top center */
+  background-repeat: no-repeat;
   padding: 1em;
 }
 p {
@@ -35,29 +39,50 @@ a:hover {
   background-image: url("./images/bigtree.jpg");
 }
 .climbover-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/climbover.jpg");
 }
 .goaround-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/goaround.jpg");
+  background-size: cover;        /* Ensures the image covers the whole background */
+  background-position: center;   /* Centers the image */
+  background-repeat: no-repeat;  /* Prevents tiling */
 }
 .cave-bg {  
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/cave.jpg");
 }
 .continue2-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/continue2.jpg");
 }
 .fightthebear-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/fightthebear.jpg");
 }
 .run-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/run.jpg");
 }
 .leftpath2-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/leftpath2.jpg");
 }
 .rightpathcaveman-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg"); 
+  background-image: url("./images/rightpathcaveman.jpg"); 
 }
 .final-bg {
-  background-image: url("./images/pexels-pixabay-163036.jpg");
+  background-image: url("./images/final.jpg");
+}
+body,
+.left-path,
+.rightpath-bg,
+.continue-bg,
+.rest-bg,
+.climbover-bg,
+.goaround-bg,
+.cave-bg,
+.continue2-bg,
+.fightthebear-bg,
+.run-bg,
+.leftpath2-bg,
+.rightpathcaveman-bg,
+.final-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
